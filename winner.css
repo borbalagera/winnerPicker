@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+  }
+
+  p{
+    font-size: 1.5rem;
+    font-style: bold;
+    margin-bottom: 2px;
+  }
+
+  button{
+    width: 48%;
+    height: 22px;
+    background-color: #eee;
+    color: rgb(31, 30, 30);
+    border: none;
+    cursor: pointer;
+    transition: transform .3s;
+    margin: 2px;
+  }
+  button:hover{
+    transform: scale(1.05);
+    background: #ddd;
+  }
+
+  body {
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRA7V3Nx0PAOQjHzqSqnKtlg76LlDOA9iU5SE88ZQtWM3pFi02V);
+    
+    }
+
+  h1{
+      margin:0px;
+      padding-bottom: 8px;
+      font-size: 1.5rem;
+      color: rgb(31, 30, 30);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    font-size: 18px;
+    transition: 0.3s;
+    cursor: pointer;
+    transition: transform .2.5s;
+  }
+
+  ul li:hover {
+    background: #ddd;
+    transform: scale(1.05);
+  }
+
+  input {
+    border: none;
+    border-bottom: dashed 1px silver;
+    font-size: 1rem;
+    height:44px;
+    width:100%;
+  }
+
+  .container{
+  background-color: rgb(228, 233, 241);
+  opacity: 92%;
+  color: rgb(24, 22, 22);
+  height:480px;
+ width: 50%;
+ padding: 30px;
+ top:140px;
+ max-height: 480px;
+ max-width: 66.666667%;
+ flex: 0 0 66.666667%;
+ text-align: center;
+ overflow-y: scroll;
+ overflow-x: hidden;
+ position: relative;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 25px;
+-webkit-box-flex: 0;
+ -ms-flex: 0 0 66.666667%;
+ -ms-overflow-style: none;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+}
+:-ms-input-placeholder {
+    text-align: center;
+}
+
